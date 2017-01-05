@@ -1,0 +1,4 @@
+OpenAI Gym Beta
+Nós estamos liberando o beta público do OpenAI Gym, um toolkit para desenvolver e comparar algoritmos de reinforcement learning (RL). Ele consiste de um crescente conjunto de ambientes (de simulação de robôs a jogos de Atari), e um site para comparar e reproduzir resultados.
+27 DE ABRIL DE 2016
+4
