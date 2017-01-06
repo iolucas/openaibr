@@ -1,0 +1,4 @@
+Generative Models
+Nossos primeiros resultados de pesquisa estão no ar: quatro projetos que compartilham um tema comum de aprimorar ou usar generative models, um ramo de técnicas de unsupervised learning em machine learning.
+16 DE JUNHO DE 2016
+6

@@ -10,7 +10,7 @@
       <div class='col-xs-10'>
         <div class='Shared-Navigation-innerContainer'>
           <ul>
-            <li><a class='Shared-Navigation-link' href="/about/" title="About OpenAI">Sobre</a></li>
+            <li><a class='Shared-Navigation-link' href="/sobre/" title="About OpenAI">Sobre</a></li>
             <li><a class='Shared-Navigation-link' href="/blog/" title="The Blog">Blog</a></li>
 <!--            <li><a class='Shared-Navigation-link' href="/requests-for-research/" title="Requests for Research">Requisições de Pesquisa</a></li>-->
           </ul>
