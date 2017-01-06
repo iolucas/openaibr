@@ -627,12 +627,21 @@ Em ambos os casos as amostras do gerador começam com ruídos e caóticas, e ao 
             col-sm-11
             col-md-8
             col-lg-8">
+    
 
-<p>In addition to generating pretty pictures, we introduce an approach for <a href="https://en.wikipedia.org/wiki/Semi-supervised_learning">semi-supervised learning</a> with GANs that involves the discriminator producing an additional output indicating the label of the input. This approach allows us to obtain state of the art results on <a href="http://yann.lecun.com/exdb/mnist/">MNIST</a>, <a href="http://ufldl.stanford.edu/housenumbers/">SVHN</a>, and CIFAR-10 in settings with very few <a href="http://stackoverflow.com/questions/19170603/what-is-the-difference-between-labeled-and-unlabeled-data">labeled examples</a>. On MNIST, for example, we achieve 99.14% accuracy with only 10 labeled examples per class with a fully connected neural network &mdash; a result that’s very close to the best known results with fully supervised approaches using all 60,000 labeled examples. This is very promising because labeled examples can be quite expensive to obtain in practice.</p>
-<p>Generative Adversarial Networks are a relatively new model (introduced only two years ago) and we expect to see more rapid progress in further improving the stability of these models during training.</p>
+<p>Além de gerar imagens bonitas, introduzimos uma abordagem para <a href="https://en.wikipedia.org/wiki/Semi-supervised_learning">semi-supervised learning</a> com GANs que envolve o discriminador produzindo uma saída adicional indicando o rótulo da entrada. Esta abordagem nos permite obter resultados de última geração em <a href="http://yann.lecun.com/exdb/mnist/">MNIST</a>, <a href="http://ufldl.stanford.edu/housenumbers/">SVHN</a>, e CIFAR-10 em casos com muito poucos <a href="http://stackoverflow.com/questions/19170603/what-is-the-difference-between-labeled-and-unlabeled-data">exemplos rotulados</a>. No MNIST, por exemplo, conseguimos 99,14% de precisão com apenas 10 exemplos rotulados por classe com uma neural network totalmente conectada &mdash; um resultado muito próximo dos melhores resultados conhecidos com abordagens totalmente supervisionadas usando todos os 60.000 exemplos rotulados. Isto é muito promissor porque conseguir exemplos rotulados pode ser bastante difícil na prática.</p>
+    
+    
+<p>Generative Adversarial Networks é um modelo relativamente novo (introduzido há apenas dois anos) e esperamos ver um progresso mais rápido na melhoria da estabilidade desses modelos durante o treinamento.</p>
 
-<p><a href='http://arxiv.org/abs/1606.04934'><strong>Improving VAEs</strong></a> (<a href='http://github.com/openai/iaf'>code</a>). In this work Durk Kingma and Tim Salimans introduce a flexible and computationally scalable method for improving the accuracy of <a href="https://www.cs.jhu.edu/~jason/tutorials/variational.html">variational inference</a>. In particular, most VAEs have so far been trained using crude <a href="http://www.cs.princeton.edu/courses/archive/spr06/cos598C/papers/chapter2.pdf">approximate posteriors</a>, where every latent variable is independent. <a href='http://arxiv.org/abs/1505.05770'>Recent extensions</a> have addressed this problem by conditioning each latent variable on the others before it in a chain, but this is computationally inefficient due to the introduced sequential dependencies. The core contribution of this work, termed <i>inverse autoregressive flow</i> (IAF), is a new approach that, unlike previous work, allows us to parallelize the computation of rich approximate posteriors, and make them almost arbitrarily flexible.</p>
-<p>We show some example <code>32x32</code> image samples from the model in the image below, on the right. On the left are earlier samples from the <a href='https://arxiv.org/abs/1502.04623'>DRAW</a> model for comparison (vanilla VAE samples would look even worse and more blurry). The DRAW model was published only one year ago, highlighting again the rapid progress being made in training generative models.</p>
+
+    
+    
+<p><a href='http://arxiv.org/abs/1606.04934'><strong>Melhorando os VAEs</strong></a> (<a href='http://github.com/openai/iaf'>código</a>). Neste trabalho, Durk Kingma e Tim Salimans introduzem um método flexível e computacionalmente escalável para melhorar a precisão da <a href="https://www.cs.jhu.edu/~jason/tutorials/variational.html">inferência variacional</a>. Em particular, a maioria dos VAEs tem sido até agora treinada usando <a href="http://www.cs.princeton.edu/courses/archive/spr06/cos598C/papers/chapter2.pdf">aproximações posteriores</a> brutas, onde cada variável latente é independente. <a href='http://arxiv.org/abs/1505.05770'>Extensões recentes</a> têm abordado este problema condicionando cada variável latente nas outras antes dela em uma cadeia, mas isto é computacionalmente ineficiente devido às dependências sequenciais introduzidas. A contribuição principal deste trabalho, chamada <i>inverse autoregressive flow</i> (IAF), é uma nova abordagem que, ao contrário de trabalhos anteriores, nos permite paralelizar o cálculo de aproximações posteriores ricas, e torná-las quase arbitrariamente flexíveis.</p>
+    
+    
+    
+<p>Mostramos alguns exemplos de amostras de imagens <code>32x32</code> do modelo na imagem abaixo, à direita. À esquerda estão amostras anteriores do modelo <a href='https://arxiv.org/abs/1502.04623'>DRAW</a> para comparação (as amostras vanilla VAE pareceriam ainda piores e mais borradas). O modelo DRAW foi publicado há apenas um ano, destacando novamente o rápido progresso no treinamento de generative models.</p>
 
 
 
@@ -666,7 +675,7 @@ Em ambos os casos as amostras do gerador começam com ruídos e caóticas, e ao 
       </div>
       
       
-        <figcaption style='max-width: 414px'>Generated from DRAW model
+        <figcaption style='max-width: 414px'>Geradas a partir do modelo DRAW
              </figcaption>
       
     </figure>
@@ -697,7 +706,7 @@ Em ambos os casos as amostras do gerador começam com ruídos e caóticas, e ao 
       </div>
       
       
-        <figcaption style='max-width: 414px'>Generated from a VAE trained with IAF</figcaption>
+        <figcaption style='max-width: 414px'>Geradas a partir de um VAE treinado com IAF</figcaption>
       
     </figure>
 
@@ -714,9 +723,11 @@ Em ambos os casos as amostras do gerador começam com ruídos e caóticas, e ao 
             col-sm-11
             col-md-8
             col-lg-8">
+    
+    
+    
 
-
-<p><a href="https://arxiv.org/abs/1606.03657 "><strong>InfoGAN</strong></a> (<a href="https://github.com/openai/InfoGAN">code</a>). Peter Chen and colleagues introduce InfoGAN &mdash; an extension of GAN that learns disentangled and interpretable representations for images. A regular GAN achieves the objective of reproducing the data distribution in the model, but the layout and organization of the code space is <i>underspecified</i> &mdash; there are many possible solutions to mapping the unit Gaussian to images and the one we end up with might be intricate and highly entangled. The InfoGAN imposes additional structure on this space by adding new objectives that involve maximizing the <a href="https://en.wikipedia.org/wiki/Mutual_information">mutual information</a> between small subsets of the representation variables and the observation. This approach provides quite remarkable results. For example, in the images of 3D faces below we vary one continuous dimension of the code, keeping all others fixed. It&#39;s clear from the five provided examples (along each row) that the resulting dimensions in the code capture interpretable dimensions, and that the model has perhaps <i>understood</i> that there are camera angles, facial variations, etc., without having been told that these features exist and are important:
+<p><a href="https://arxiv.org/abs/1606.03657 "><strong>InfoGAN</strong></a> (<a href="https://github.com/openai/InfoGAN">código</a>). Peter Chen e colegas introduzem InfoGAN &mdash; uma extensão do GAN que aprende representações descentralizadas e interpretáveis para imagens. Um GAN regular atinge o objetivo de reproduzir a distribuição de dados no modelo, mas o layout e organização do espaço de código é <i>sub-especificado</i> &mdash; existem muitas soluções possíveis para mapear a unidade gaussiana para imagens e a solução que chegarmos pode ser complexa e altamente enredada. O InfoGAN impõe estrutura adicional neste espaço adicionando novos objetivos que envolvem a maximização da <a href="https://en.wikipedia.org/wiki/Mutual_information">informação mútua</a> entre pequenos subconjuntos das variáveis e a observação. Esta abordagem fornece resultados bastante notáveis. Por exemplo, nas imagens das faces 3D abaixo variamos uma dimensão contínua do código, mantendo todos as outras fixas. É claro a partir dos cinco exemplos fornecidos (ao longo de cada linha) que as dimensões resultantes no código capturam dimensões interpretáveis, e que o modelo talvez tenha <i>entendido</i> que há ângulos de câmera, variações faciais, etc, sem ter sido dito que essas informações existem e que são importantes:
 
 
 </div>
@@ -749,7 +760,7 @@ Em ambos os casos as amostras do gerador começam com ruídos e caóticas, e ao 
       </div>
       
       
-        <figcaption style='max-width: 389px'>(a) Azimuth (pose)
+        <figcaption style='max-width: 389px'>(a) Azimute (pose)
              </figcaption>
       
     </figure>
@@ -780,7 +791,7 @@ Em ambos os casos as amostras do gerador começam com ruídos e caóticas, e ao 
       </div>
       
       
-        <figcaption style='max-width: 389px'>(b) Elevation
+        <figcaption style='max-width: 389px'>(b) Elevação
              </figcaption>
       
     </figure>
@@ -811,7 +822,7 @@ Em ambos os casos as amostras do gerador começam com ruídos e caóticas, e ao 
       </div>
       
       
-        <figcaption style='max-width: 389px'>(c) Lighting
+        <figcaption style='max-width: 389px'>(c) Iluminação
              </figcaption>
       
     </figure>
@@ -842,7 +853,7 @@ Em ambos os casos as amostras do gerador começam com ruídos e caóticas, e ao 
       </div>
       
       
-        <figcaption style='max-width: 389px'>(d) Wide or Narrow</figcaption>
+        <figcaption style='max-width: 389px'>(d) Larga ou estreita</figcaption>
       
     </figure>
 
@@ -859,13 +870,18 @@ Em ambos os casos as amostras do gerador começam com ruídos e caóticas, e ao 
             col-sm-11
             col-md-8
             col-lg-8">
+        
 
-<p>We also note that nice, disentangled representations have been achieved before (such as with <a href='https://arxiv.org/abs/1503.03167'>DC-IGN</a> by Kulkarni et al.), but these approaches rely on additional supervision, while our approach is entirely unsupervised.</p>
+<p>Observamos também que representações boas e desembaraçadas foram alcançadas anteriormente (como com a <a href='https://arxiv.org/abs/1503.03167'>DC-IGN</a> por Kulkarni et al.), mas essas abordagens dependem de supervisão adicional, enquanto nossa abordagem é totalmente sem supervisão.</p>
 
 <hr>
+    
 
-<p>The next two recent projects are in a <a href="https://en.wikipedia.org/wiki/Reinforcement_learning">reinforcement learning</a> (RL) setting (another area of <a href="https://openai.com/blog/openai-gym-beta/">focus</a> at OpenAI), but they both involve a generative model component.</p>
-<p><a href="http://arxiv.org/abs/1605.09674"><strong>Curiosity-driven Exploration in Deep Reinforcement Learning via Bayesian Neural Networks</strong></a> (<a href="https://github.com/openai/vime">code</a>). Efficient exploration in high-dimensional and continuous spaces is presently an unsolved challenge in reinforcement learning. Without effective exploration methods our agents <a href='http://karpathy.github.io/2016/05/31/rl/'>thrash around</a> until they randomly stumble into rewarding situations. This is sufficient in many simple toy tasks but inadequate if we wish to apply these algorithms to complex settings with high-dimensional action spaces, as is common in robotics. In this paper, Rein Houthooft and colleagues propose VIME, a practical approach to exploration using uncertainty on generative models. VIME makes the agent self-motivated; it actively seeks out surprising state-actions. We show that VIME can improve a range of <a href="https://en.wikipedia.org/wiki/Reinforcement_learning#Direct_policy_search">policy search</a> methods and makes significant progress on more realistic tasks with sparse rewards (e.g. scenarios in which the agent has to learn locomotion primitives without any guidance).</p>
+<p>Os próximos dois projetos recentes estão no campo de <a href="https://en.wikipedia.org/wiki/Reinforcement_learning">reinforcement learning</a> (RL) (outra área de <a href="https://openai.com/blog/openai-gym-beta/">foco</a> na OpenAI), mas ambos envolvem um componente de generative model.</p>
+    
+        
+    
+<p><a href="http://arxiv.org/abs/1605.09674"><strong>Exploração orientada pela curiosidade em Deep Reinforcement Learning via Bayesian Neural Networks</strong></a> (<a href="https://github.com/openai/vime">código</a>). Exploração eficiente em grandes espaços dimensionais e contínuos é atualmente um desafio não resolvido em reinforcement learning. Sem métodos de exploração eficazes nossos agentes <a href='http://karpathy.github.io/2016/05/31/rl/'>vagam por ai</a> até que eles tropeçem aleatoriamente em situações gratificantes. Isto é suficiente em muitas tarefas de brincadeira mas inadequado se desejamos aplicar esses algoritmos a configurações complexas com espaços de ação de grandes dimensões, como é comum na robótica. Neste artigo, Rein Houthooft e colegas propõem o VIME, uma abordagem prática para a exploração usando a incerteza em generative models. VIME torna o agente auto-motivado; ele procura ativamente ações-de-estado que causem surpresa. Mostramos que VIME pode melhorar uma gama de métodos de <a href="https://en.wikipedia.org/wiki/Reinforcement_learning#Direct_policy_search">busca de políticas</a> e faz progressos significativos em tarefas mais realistas com recompensas escassas (por exemplo, cenários em que o agente tem que aprender primitivas de locomoção sem qualquer orientação).</p>
 
 
 </div>
@@ -898,7 +914,7 @@ Em ambos os casos as amostras do gerador começam com ruídos e caóticas, e ao 
       </div>
       
       
-        <figcaption style='max-width: 320px'>Policy trained with VIME
+        <figcaption style='max-width: 320px'>Política treinada com VIME
              </figcaption>
       
     </figure>
@@ -929,7 +945,7 @@ Em ambos os casos as amostras do gerador começam com ruídos e caóticas, e ao 
       </div>
       
       
-        <figcaption style='max-width: 320px'>Policy trained with naive exploration</figcaption>
+        <figcaption style='max-width: 320px'>Política treinada com pesquisa simples</figcaption>
       
     </figure>
 
@@ -946,8 +962,8 @@ Em ambos os casos as amostras do gerador começam com ruídos e caóticas, e ao 
             col-sm-11
             col-md-8
             col-lg-8">
-
-<p>Finally, we would like to include a bonus fifth project: <a href="http://arxiv.org/abs/1606.03476"><strong>Generative Adversarial Imitation Learning</strong></a> (<a href="https://github.com/openai/imitation">code</a>), in which Jonathan Ho and colleagues present a new approach for <em>imitation learning</em>. Jonathan Ho is joining us at OpenAI as a summer intern. He did most of this work at Stanford but we include it here as a related and highly creative application of GANs to RL. The standard reinforcement learning setting usually requires one to design a reward function that describes the desired behavior of the agent. However, in practice this can sometimes involve expensive trial-and-error process to get the details right. In contrast, in imitation learning the agent learns from example demonstrations (for example provided by teleoperation in robotics), eliminating the need to design a reward function. </p>
+    
+<p>Finalmente, gostaríamos de incluir um quinto projeto de bônus: <a href="http://arxiv.org/abs/1606.03476"><strong>Generative Adversarial Imitation Learning</strong></a> (<a href="https://github.com/openai/imitation">código</a>), no qual Jonathan Ho e colegas apresentam uma nova abordagem para a <em>imitação de aprendizagem</em>. Jonathan Ho está se juntando a nós na OpenAI como estagiário de verão. Ele fez a maior parte desse trabalho em Stanford, mas nós incluímos aqui como uma aplicação relacionada e altamente criativa de GANs para RL. A configuração padrão de reinforcement learning geralmente requer alguém para projetar uma função de recompensa que descreve o comportamento desejado do agente. No entanto, na prática, isso às vezes pode envolver um caro processo de tentativa e erro para obter os detalhes corretos. Em contraste, na imitation learning o agente aprende com demonstrações de exemplos (por exemplo, fornecidas pela teleoperação em robótica), eliminando a necessidade de projetar uma função de recompensa. </p>
 
 
 </div>
@@ -1025,15 +1041,19 @@ Em ambos os casos as amostras do gerador começam com ruídos e caóticas, e ao 
             col-sm-11
             col-md-8
             col-lg-8">
+        
 
-<p>Popular imitation approaches involve a two-stage pipeline: first learning a reward function, then running RL on that reward. Such a pipeline can be slow, and because it’s indirect, it is hard to guarantee that the resulting policy works well. This work shows how one can directly extract policies from data via a connection to GANs. As a result, this approach can be used to learn policies from expert demonstrations (without rewards) on hard <a href="https://gym.openai.com">OpenAI Gym</a> environments, such as <a href="https://gym.openai.com/envs/Ant-v1">Ant</a> and <a href="https://gym.openai.com/envs/Humanoid-v1">Humanoid</a>.</p>
+<p>As abordagens de imitação populares envolvem um pipeline em duas etapas: primeiro aprender uma função de recompensa, depois executar RL nessa recompensa. Esse pipeline pode ser lento e, por ser indireto, é difícil garantir que a política resultante funcione bem. Este trabalho mostra como alguém pode diretamente extrair políticas de dados através de uma conexão com GANs. Como resultado, essa abordagem pode ser usada para aprender políticas de demonstrações de especialistas (sem recompensas) em ambientes complexos do <a href="https://gym.openai.com">OpenAI Gym</a>, como <a href="https://gym.openai.com/envs/Ant-v1">Ant</a> e <a href="https://gym.openai.com/envs/Humanoid-v1">Humanoid</a>.</p>
 
 <hr>
+    
+    
+    
 
-<h2 id="going-forward"><a name='header-c878' class='md-header-anchor '></a>Going forward</h2>
-<p>Generative models are a rapidly advancing area of research. As we continue to advance these models and scale up the training and the datasets, we can expect to eventually generate samples that depict entirely plausible images or videos. This may by itself find use in multiple applications, such as on-demand generated art, or Photoshop++ commands such as &quot;make my smile wider&quot;. Additional presently known applications include <a href="https://math.berkeley.edu/~sethian/2006/Applications/ImageProcessing/noiseremoval.html">image denoising</a>, <a href="https://en.wikipedia.org/wiki/Inpainting">inpainting</a>, <a href="https://en.wikipedia.org/wiki/Super-resolution_imaging">super-resolution</a>, <a href="https://en.wikipedia.org/wiki/Structured_prediction">structured prediction</a>, <a href="https://en.wikipedia.org/wiki/Reinforcement_learning#Exploration">exploration</a> in reinforcement learning, and neural network <a href="http://image.diku.dk/shark/sphinx_pages/build/html/rest_sources/tutorials/algorithms/deep_denoising_autoencoder_network.html">pretraining</a> in cases where labeled data is expensive. </p>
+<h2 id="going-forward"><a name='header-c878' class='md-header-anchor '></a>Indo adiante</h2>
+<p>Generative models é uma área de pesquisa em rápido avanço. À medida que continuamos a avançar estes modelos e expandir o treinamento e os conjuntos de dados, podemos esperar para eventualmente gerar amostras que retratam imagens ou vídeos inteiramente convincentes. Isto por si só pode ser usado em várias aplicações, como arte gerada sob demanda, ou comandos do Photoshop++ como &quot;tornar meu sorriso mais amplo&quot;. Outras aplicações atualmente conhecidas incluem <a href="https://math.berkeley.edu/~sethian/2006/Applications/ImageProcessing/noiseremoval.html">remoção de ruídos de imagens</a>, <a href="https://en.wikipedia.org/wiki/Inpainting">restauração de imagem</a>, <a href="https://en.wikipedia.org/wiki/Super-resolution_imaging">super-resolução</a>, <a href="https://en.wikipedia.org/wiki/Structured_prediction">previsão estruturada</a>, <a href="https://en.wikipedia.org/wiki/Reinforcement_learning#Exploration">exploração</a> em reinforcement learning, e <a href="http://image.diku.dk/shark/sphinx_pages/build/html/rest_sources/tutorials/algorithms/deep_denoising_autoencoder_network.html">pre-treino</a> de neural networks em casos onde os obter dados rotulados seja caro. </p>
 
-<p> However, the deeper promise of this work is that, in the process of training generative models, we will endow the computer with an understanding of the world and what it is made up of.</p>
+<p> No entanto, a promessa mais profunda deste trabalho é que, no processo de treinamento de generative models, vamos dotar o computador com uma compreensão do mundo e do que ele é composto.</p>
 
 <script type="text/x-mathjax-config">
 	MathJax.Hub.Config({
