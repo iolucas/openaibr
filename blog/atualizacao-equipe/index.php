@@ -2,17 +2,17 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <title>Introducing OpenAI</title>
+    <title>Atualização na equipe</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <meta name="robots" content="index,follow,archive">
     <meta property="og:locale" content="en_us">
-    <meta property="og:title" content="Introducing OpenAI">
-    <meta property="og:url" content="https://openai.com/blog/introducing-openai/">
+    <meta property="og:title" content="Team update">
+    <meta property="og:url" content="https://openai.com/blog/team-update/">
     <meta property="og:site_name" content="OpenAI">
     <meta property="og:type" content="website">
-    <meta property="og:description" content="OpenAI is a non-profit artificial intelligence research company. Our goal is to advance digital intelligence in the way that is most likely to benefit humanity as a whole, unconstrained by a need to generate financial return.
+    <meta property="og:description" content=" We'd like to welcome the latest set of team members to OpenAI (and we're still hiring!): 
 
 ">    
 
@@ -24,9 +24,9 @@
     <meta property="og:image:height" content="700">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@openai">
-    <meta name="twitter:url" content="https://openai.com/blog/introducing-openai/">
-    <meta name="twitter:title" content="Introducing OpenAI">
-    <meta name="twitter:description" content="OpenAI is a non-profit artificial intelligence research company. Our goal is to advance digital intelligence in the way that is most likely to benefit humanity as a whole, unconstrained by a need to generate financial return.
+    <meta name="twitter:url" content="https://openai.com/blog/team-update/">
+    <meta name="twitter:title" content="Team update">
+    <meta name="twitter:description" content=" We'd like to welcome the latest set of team members to OpenAI (and we're still hiring!): 
 
 ">
     
@@ -35,42 +35,22 @@
 
 
     <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/1b9ff7da-9bc0-4849-80e5-eeee396a0b17.css"/>
-    <link type="text/css" rel="stylesheet" href="/assets/shared-34b0931c40d8e24dc7b7dbe1db15e28061648524c809a05cfa824d983b0e9271.css">
+    <link type="text/css" rel="stylesheet" href="https://openai.com/assets/shared-34b0931c40d8e24dc7b7dbe1db15e28061648524c809a05cfa824d983b0e9271.css">
     
     
-    <link rel="icon" href="/assets/favicon-81f16c8d5fcc93e1b02354b72b40abb680deb71081fa467625154ccf471883dc.ico">
-    <link rel="shortcut icon" href="/assets/favicon-81f16c8d5fcc93e1b02354b72b40abb680deb71081fa467625154ccf471883dc.ico">
-    <link rel="apple-touch-icon" href="/assets/favicon-b52807aa8dda8e2badc657cccbdd1d44f388941a3c10522ba682098881d7c4ed.png">
+    <link rel="icon" href="https://openai.com/assets/favicon-81f16c8d5fcc93e1b02354b72b40abb680deb71081fa467625154ccf471883dc.ico">
+    <link rel="shortcut icon" href="https://openai.com/assets/favicon-81f16c8d5fcc93e1b02354b72b40abb680deb71081fa467625154ccf471883dc.ico">
+    <link rel="apple-touch-icon" href="https://openai.com/assets/favicon-b52807aa8dda8e2badc657cccbdd1d44f388941a3c10522ba682098881d7c4ed.png">
 
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
-  <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/4C09C459-F047-9C47-9475-97B0D0E31A2E/main.js" charset="UTF-8"></script></head>
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://openai.com/feed.xml" />
+</head>
 
   <body class=''>
 
     
 
     
-<div class='Shared-Navigation'>
-  <div class='container-fluid'>
-    <div class='row'>
-
-      <div class='col-xs-2'>
-          <a href="/blog" title="OpenAI" class='Shared-Navigation-logo'>
-            <img class="logo" src="/assets/shared/logo-2b9b8ab889a67a6b3abad6dd983774fe96449589f9d8dbffb71875349e038e1e.svg" width="63" height="23" alt="OpenAI" />
-          </a>
-      </div>
-      <div class='col-xs-10'>
-        <div class='Shared-Navigation-innerContainer'>
-          <ul>
-            <li><a class='Shared-Navigation-link' href="/about/" title="About OpenAI">About</a></li>
-            <li><a class='Shared-Navigation-link' href="/blog/" title="The Blog">Blog</a></li>
-            <li><a class='Shared-Navigation-link' href="/requests-for-research/" title="Requests for Research">Requests for Research</a></li>
-          </ul>
-         </div>
-      </div>
-    </div><!-- ./Row -->
-  </div>
-</div>
+<?php include '../../header.html.php'; ?>
 
 
 <div class='Post'>
@@ -84,50 +64,52 @@
               col-lg-8">
       
         <div class="Post-header">
-          <h1 class='Post-title'>Introducing OpenAI</h1>
+          <h1 class='Post-title'>Atualização na equipe</h1>
           <div class='Post-meta'>
-            <span class="Post-author">Greg Brockman, Ilya Sutskever, and the OpenAI team</span>
-            <span class="Post-date">December 11, 2015</span>
+            <span class="Post-author">Greg Brockman</span>
+            <span class="Post-date">25 DE MAIO DE 2016</span>
           </div>
         </div>
         
-        <p class='Post-lead'>OpenAI is a non-profit artificial intelligence research company. Our goal is to advance digital intelligence in the way that is most likely to benefit humanity as a whole, unconstrained by a need to generate financial return.</p>
-
-<p>Since our research is free from financial obligations, we can better focus on a positive human impact. We believe AI should be an extension of individual human wills and, in the spirit of liberty, as broadly and evenly distributed as possible.</p>
-
-<p>The outcome of this venture is uncertain and the work is difficult, but we believe the goal and the structure are right. We hope this is what matters most to the best in the field.</p>
+        <p> Nós gostariamos de dar boas vindas aos novos membros da equipe ao OpenAI (e ainda estamos <a href="https://jobs.lever.co/openai">contratando</a>!): </p>
 
 <hr>
 
-<h2>Background</h2>
 
-<p>Artificial intelligence has always been a surprising field. In the early days, people thought that solving certain tasks (such as chess) would lead us to discover human-level intelligence algorithms. However, the solution to each task turned out to be much less general than people were hoping (such as doing a search over a huge number of moves).</p>
+<h2>Tempo integral</h2>
 
-<p>The past few years have held another flavor of surprise. An AI technique explored for decades, deep learning, started achieving state-of-the-art results in a wide variety of problem domains. In deep learning, rather than hand-code a new algorithm for each problem, you design architectures that can twist themselves into a wide range of algorithms based on the data you feed them.</p>
+      
+<ul class='HiresList'>
+<li id='aEBACAjoUzL'><b>Marcin Andrychowicz. </b><a href="http://www.crypto.edu.pl/andrychowicz">Marcin</a> recebeu 3 medalhas de ouro no <a href="https://en.wikipedia.org/wiki/International_Olympiad_in_Informatics#Multiple_IOI_winners">IOI</a>, e tem sido um dos principais participantes em competições de programação como <a href="https://www.topcoder.com/members/marcina007/">TopCoder</a> e <a href="https://cerc.tcs.uj.edu.pl/2012/report.html">ACM-ICPC</a>. Ele está envolvido com deep learning há um ano e teve um grande progresso em <a href="https://arxiv.org/pdf/1602.03218.pdf">arquiteturas de memória neural</a>.
+    
+    
+<br/></li><li id='aEBACA6wclI' class=''><b>Rafał Józefowicz.</b> <a href="https://www.linkedin.com/in/rafaljozefowicz">Rafał</a> começou sua carreira na <a href="https://www.kaggle.com/rafalj">programação</a> <a href="https://www.topcoder.com/members/rlp/details/?track=DATA_SCIENCE&amp;subTrack=SRM&amp;tab=statistics">competitiva</a> e na indústria financeira. Ele agora está envolvido com deep learning há um ano e meio, e seus resultados incluem a última geração de  <a href="http://arxiv.org/pdf/1602.02410v2.pdf">modelo de linguagem</a>.
+    
+    
+<br/></li><li id='aEBACAJ2b5z' class=''><b>Kate Miltenberger.</b> <a href="https://twitter.com/katemilty">Kate</a> tem um background versátil, com experiência em operações, administração de escritório, pesquisa de usuários, comunidade e suporte. Ela anteriormente ajudou a <a href="http://Academia.edu">Academia.edu</a> funcionar sem problemas.
 
-<p>This approach has yielded outstanding results on pattern recognition problems, such as recognizing objects in images, machine translation, and speech recognition. But we've also started to see what it might be like for computers to be <a href="http://www.wired.co.uk/news/archive/2015-09/01/art-algorithm-recreates-paintings" title="This algorithm can create an imitation Van Gogh in 60 minutes">creative</a>, to <a href="http://www.theguardian.com/technology/2015/jun/18/google-image-recognition-neural-network-androids-dream-electric-sheep" title="Yes, androids do dream of electric sheep">dream</a>, and to <a href="http://www.bloomberg.com/features/2015-preschool-for-robots/" title="This Preschool is for Robots">experience the world</a>.</p>
+    
+    
+<br/></li><li id='aEBACAmPPn4' class=''><b>Ludwig Pettersson.</b> <a href="https://twitter.com/ludwig">Ludwig</a> foi anteriormente Diretor Criativo da <a href="https://stripe.com/">Stripe</a>, onde ele construiu e liderou a equipe de <a href="https://dribbble.com/luddep">design</a>.
+    
+<br/></li><li id='aEBACA50rwQ' class=''><b>Jonas Schneider.</b> <a href="http://jonasschneider.com/">Jonas</a> fez boa parte do trabalho pesado de engenharia no <a href="https://github.com/openai/gym">OpenAI Gym</a>. Recém graduado na faculdade, ele foi anteriormente um estagiário na Stripe, onde ele ajudou a construir o <a href="https://stripe.com/blog/ctf3-architecture">Stripe CTF3</a>.
 
+
+<br/></li><li id='aEBACAahLSZ' class=''><b>Jie Tang.</b> <a href="http://rll.berkeley.edu/~jietang/">Jie</a> foi engenheiro na Dropbox por quase cinco anos, onde liderou a equipe responsável pela tecnologia de sincronização de arquivos que funciona em centenas de milhões de desktops. Antes disso, trabalhou no laboratório de robótica de <a href="https://openai.com/blog/welcome-pieter-and-shivon/">Pieter Abbeel</a> em Berkeley, trabalhando em helicópteros autônomos, percepção RGBD e bots de Starcraft.
+
+</li></ul>
 
 <hr>
 
-<h2>Looking forward</h2>
+<h2>Internos</h2>
+      
+      
+<ul class='HiresList'>
+<li id='aEBACAGjwu9' class=''><b>Prafulla Dhariwal. </b><a href="https://www.linkedin.com/in/prafulladhariwal">Prafulla</a> foi medalha de ouro na <a href="https://www.imo-official.org/participant_r.aspx?id=20827">IMO</a>, <a href="http://ipho2013.dk/ipho2013-results-gold.htm">IPhO</a>, e <a href="http://olympiads.hbcse.tifr.res.in/subjects/astronomy/past-performance-at-ios/copy_of_1999-2005">IAO</a>. Ele atualmente é um estudante de graduação no MIT, realizando pesquisas sobre aprendizado de representações invariantes para tarefas de fala e visão.</li>
 
-<p>AI systems today have impressive but narrow capabilities. It seems that we'll keep whittling away at their constraints, and in the extreme case they will reach human performance on virtually every intellectual task. It's hard to fathom how much human-level AI could benefit society, and it's equally hard to imagine how much it could damage society if built or used incorrectly.</p>
+    <li id='aEBACAuhowR' class=''><b>Paul Christiano.</b> <a href="https://paulfchristiano.com/">Paul</a> é um estudante de doutorado em Berkeley que <a href="https://medium.com/ai-control">escreveu extensivamente</a> sobre a segurança em IA. Ele recebeu prêmios de melhor artigo e melhor artigo de estudante na <a href="http://acm-stoc.org/stoc2016/">STOC</a> pela pesquisa de <a href="https://arxiv.org/abs/1010.2921">otimização</a> e <a href="http://arxiv.org/abs/1403.5287">aprendizado online</a>.</li>
 
-
-<hr>
-
-<h2>OpenAI</h2>
-
-<p>Because of AI's surprising history, it's hard to predict when human-level AI might come within reach. When it does, it'll be important to have a leading research institution which can prioritize a good outcome for all over its own self-interest.</p>
-
-<p>We're hoping to grow OpenAI into such an institution. As a non-profit, our aim is to build value for everyone rather than shareholders. Researchers will be strongly encouraged to publish their work, whether as papers, blog posts, or code,  and our patents (if any) will be shared with the world. We'll freely collaborate with others across many institutions and expect to work with companies to research and deploy new technologies.</p>
-
-<p>OpenAI's research director is <a href="http://www.cs.toronto.edu/~ilya/" title="Ilya Sutskever">Ilya Sutskever</a>, one of the world experts in machine learning. Our CTO is <a href="https://twitter.com/gdb" title="Greg Brockman on Twitter">Greg Brockman</a>, formerly the CTO of Stripe. The group's other founding members are world-class research engineers and scientists: <a href="http://www.trevorblackwell.com/#" title="Trevor Blackwell">Trevor Blackwell</a>, <a href="https://vickicheung.com/" title="Vicki Cheung">Vicki Cheung</a>, <a href="http://cs.stanford.edu/people/karpathy/" title="Andrej Karpathy">Andrej Karpathy</a>, <a href="http://dpkingma.com/" title="Durk Kingma">Durk Kingma</a>, <a href="http://www.eecs.berkeley.edu/~joschu/" title="John Schulman">John Schulman</a>, <a href="https://www.linkedin.com/in/pamela-vagata-8396074" title="Pamela Vagata">Pamela Vagata</a>, and <a href="http://cs.nyu.edu/~zaremba/" title="Wojciech Zaremba">Wojciech Zaremba</a>. Pieter Abbeel, Yoshua Bengio, Alan Kay, Sergey Levine, and Vishal Sikka are advisors to the group. OpenAI's co-chairs are Sam Altman and Elon Musk.</p>
-
-<p>Sam, Greg, Elon, Reid Hoffman, Jessica Livingston, Peter Thiel, Amazon Web Services (AWS), Infosys, and <a href="https://ycr.org/" title="YC Research">YC Research</a> are donating to support OpenAI. In total, these funders have committed $1 billion, although we expect to only spend a tiny fraction of this in the next few years.</p>
-
-<p>You can follow us on Twitter at <a href="https://twitter.com/openai" title="Follow OpenAI on Twitter">@openai</a>.</p>
+</ul>
 
         
       </div>
@@ -139,20 +121,7 @@
 
     
 
-    <script src="https://code.jquery.com/jquery-3.0.0.slim.min.js"></script>
-    <script type="text/javascript" src="/assets/vendor/modernizr-custom-9284246420bb04fb025de4b571801f20627a4b2d64a5d143c4a34da521521ce3.js"></script>
-    <script type="text/javascript" src="/assets/dynamics.min-cc3c8750e369bde68e8eb7d8ebbc02d0aa01bce65b829d1d9b6ee5278bf08307.js"></script>
-    <script type="text/javascript" src="/assets/scrollTo-08357a32c68e56243cf6b56c54092a5ffcd90090fea48bb7d0e09980a5cc26f0.js"></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-71156606-1', 'auto');
-      ga('send', 'pageview');
-    </script>
+<?php include '../../scripts.html.php'; ?>
     
-    
-    <!-- 1 -->
   </body>
 </html>

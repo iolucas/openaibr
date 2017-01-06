@@ -12,7 +12,7 @@
           <ul>
             <li><a class='Shared-Navigation-link' href="/about/" title="About OpenAI">Sobre</a></li>
             <li><a class='Shared-Navigation-link' href="/blog/" title="The Blog">Blog</a></li>
-            <li><a class='Shared-Navigation-link' href="/requests-for-research/" title="Requests for Research">Requisições de Pesquisa</a></li>
+<!--            <li><a class='Shared-Navigation-link' href="/requests-for-research/" title="Requests for Research">Requisições de Pesquisa</a></li>-->
           </ul>
          </div>
       </div>
