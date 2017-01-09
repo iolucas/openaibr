@@ -65,6 +65,8 @@
         <p class='Post-lead'>A OpenAI é uma empresa de pesquisa de inteligência artificial sem fins lucrativos. Nossa missão é criar IAs seguras e garantir que os benefícios da IA sejam tão amplamente distribuídos quanto possível.</p>
           
         <p>No curto prazo, estamos atuando dentro dos avanços recentes na pesquisa de IA e trabalhando para o próximo conjunto de avanços. Por favor, entre em contato direto com Jack Clark em <a href="press@openai.com">press@openai.com</a>.</p>
+          
+        <p>(Tradutor Lucas V. Oliveira - <a href="mailto:lucas.o@live.com">lucas.o@live.com</a>)</p>
 
       </div>
 

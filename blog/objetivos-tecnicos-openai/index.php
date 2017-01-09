@@ -205,8 +205,7 @@
               col-sm-11
               col-md-8
               col-lg-8">
-      
-      (Estamos inspirados no trabalho pioneiro da DeepMind, que produziu resultados impressionantes nessa área nos últimos anos).
+
 
 
   <p> Em nossa métrica inicial, pretendemos treinar um agente capaz de resolver qualquer jogo. Os jogos são mini-mundos virtuais que são muito diversos, e aprender a jogar jogos rapidamente e bem exigirá avanços significativos em <a href="/blog/generative-models">generative models</a>

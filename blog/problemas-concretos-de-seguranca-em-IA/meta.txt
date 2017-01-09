@@ -1,0 +1,4 @@
+Problemas Concretos na Segurança de IA
+Nós (juntamente com pesquisadores de Berkeley e Stanford) somos co-autores no artigo de hoje, liderado por pesquisadores do Google Brain, Problemas Concretos na Segurança de IA. O artigo explora muitos problemas de pesquisa em torno de assegurar que sistemas modernos de machine learning operem como pretendido. (Os problemas são muito práticos, e já vimos alguns sendo integrados no OpenAI Gym.)
+21 DE JUNHO DE 2016
+8
